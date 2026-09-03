@@ -106,7 +106,7 @@ ans3 = st.text_input(
 ans4 = st.text_input(
     "ข้อ 2: Can you write with a `_ e _`? 🖊️ ",
     value=st.session_state.ans2_val,
-)R
+)
 
 # อัปเดตค่าล่าสุดเข้าตัวแปร
 st.session_state.ans1_val = ans1
